@@ -1,3 +1,9 @@
+
+# # Requerimiento: Desarrolle un algoritmo que devuelva un valor ingresado en la cantidad posible de monedas, siendo los valores de las monedas: 1000, 500, 200, 100, 50
+
+# # Ejemplo: valor ingresado 1250
+# Respuesta: 1000 * 1 | 200 * 1 | 50 * 1
+
 def monedas(varoinit: int):
     if (varoinit > 0):
         dinero = int(varoinit // 1000)
