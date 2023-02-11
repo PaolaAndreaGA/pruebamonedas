@@ -1,7 +1,7 @@
-#Código para ordenar monedas
+# Código para ordenar monedas
 Este código se utiliza para ordenar una cantidad dada de dinero en monedas de diferentes denominaciones.
 
-##Función ordenar_monedas(cantidad)
+## Función ordenar_monedas(cantidad)
 La función ordenar_monedas toma como argumento una cantidad de dinero y devuelve una lista con la cantidad de monedas necesarias para representar esa cantidad, ordenadas de mayor a menor denominación.
 
 def ordenar_monedas(cantidad):
@@ -18,7 +18,7 @@ El cuerpo de la función itera sobre la lista monedas y, para cada moneda, verif
 
 Después de iterar sobre todas las denominaciones, la función devuelve la lista cantidades.
 
-##Uso del código
+## Uso del código
 El código incluye una sección que pide al usuario que introduzca la cantidad a ordenar y muestra el resultado de llamar a la función ordenar_monedas.
 
 cantidad = int(input("Introduce la cantidad a ordenar: "))
